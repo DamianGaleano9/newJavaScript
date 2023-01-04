@@ -69,13 +69,52 @@
 
 //LITERALS
 
-'JavaScript';
-"javaScript";
+// 'JavaScript';
+// "javaScript";
 
 
-new String('javascript');
-String('javaScript');
+// new String('javascript');
+// String('javaScript');
 
 
-[1,2,3,4];
-new Array(1,2,3,4);
+// [1,2,3,4];
+// new Array(1,2,3,4);
+
+// {id: 1, name: 'Damian'};
+
+// let person = {id: 1, name: 'salvador'};
+// person1 = new Object();
+
+
+// person1.name = "Damian";
+// person1.id = 9;
+// person1.lastName = 'Galeano';
+
+
+
+
+// console.log(person1);
+
+//check if a function has a value assigned
+
+
+// let a;
+// let b = 9;
+
+// if(a === undefined) {
+//     console.log('the variable a still does not exist');
+// }  else { 
+//     console.log('the variable has a value assigned');
+// }
+
+
+let a;
+let b = 11;
+
+console.log(typeof a);
+console.log(typeof b);
+
+
+if(typeof a === undefined) {
+    
+}
