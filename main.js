@@ -67,3 +67,15 @@
 
 
 
+//LITERALS
+
+'JavaScript';
+"javaScript";
+
+
+new String('javascript');
+String('javaScript');
+
+
+[1,2,3,4];
+new Array(1,2,3,4);
