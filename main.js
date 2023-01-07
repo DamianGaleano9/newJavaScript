@@ -108,13 +108,48 @@
 // }
 
 
-let a;
-let b = 11;
+// let a;
+// let b = 11;
 
-console.log(typeof a);
-console.log(typeof b);
+// console.log(typeof a);
+// console.log(typeof b);
 
 
-if(typeof a === undefined) {
-    
-}
+// if(typeof a === undefined) {
+//     for(let i = 0; i < 9; i++) {
+//         console.log('the variable ' + a + 'is undefined' );
+//     } else {
+//         console.log("it works")
+//     }
+// }
+
+
+// #14 
+
+// let jugando = new Boolean(true);
+// console.log(jugando); /* Se pueden crear objects apartar de instacias */
+// jugando = false;
+// console.log(jugando); 
+
+// let cociente = 9/3 * 3;
+// console.log(cociente);
+
+// let nombre = 'Damian ' + cociente;
+// console.log(nombre);
+
+// ob1000; 
+
+// function sumar (a, b) {
+//     return a + b;
+
+// }
+
+// console.log(sumar(12,35));
+
+
+// #15 
+
+let restar = new Function('a', 'b', 'return a - b');
+
+
+console.log(restar(2,6));
