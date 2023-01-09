@@ -149,7 +149,37 @@
 
 // #15 
 
-let restar = new Function('a', 'b', 'return a - b');
+// let restar = new Function('a', 'b', 'return a - b');
 
 
-console.log(restar(2,6));
+// console.log(restar(2,6)); -4
+
+// It's the same process;
+
+// function restar(a, b) {
+//     return a - b;
+
+// };
+
+// console.log(restar(2, 6));
+
+
+// let person = {
+// id: 1, 
+// nombre: "Damian",
+// };
+
+// console.log(person.nombre);
+
+// persona = new Object();
+
+// //We can do it for objects;
+
+// persona.id = 9;
+// persona.nombre = "Damian";
+// persona.phone = "123";
+
+// console.log(persona);
+
+// #16;
+
