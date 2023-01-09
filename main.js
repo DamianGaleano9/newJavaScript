@@ -183,3 +183,54 @@
 
 // #16;
 
+// check if a variable has assigned values;
+
+// let a;
+// let b = 9;
+
+// a = 'JavaScript';
+
+// if(a === undefined) {
+//     console.log('The variable does not yet have a value assigned')
+// } else {
+//     console.log('variable has a value');
+// };
+
+
+// if(b === undefined) {
+//     console.log('The variable does not yet have a value');
+// } else {
+// console.log('it was already declared')
+// };
+
+// #17;
+
+// determine if a variable was declared with typeof;
+
+
+let x;
+let y = 21;
+
+
+// console.log(typeof(x));
+// console.log(typeof(y));
+
+
+// if(typeof x === undefined) {
+//     console.log('not defined')
+// } else {
+//     console.log('variable has a value');
+// };
+
+
+// if(typeof y === undefined) {
+//     console.log('not defined')
+// } else {
+//     console.log('variable has a value');
+// };
+
+
+// check if a function returns a value;
+
+
+
